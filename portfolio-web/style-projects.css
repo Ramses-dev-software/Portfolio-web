@@ -1,0 +1,41 @@
+#pr1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.834), rgba(0, 0, 0, 0.558)) ,url('./images/images-projects/it-is-not-a-guessing-game.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pr2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.834), rgba(0, 0, 0, 0.558)) ,url('./images/images-projects/screen_shot_2018-07-05_at_2.44.25_pm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pr3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.834), rgba(0, 0, 0, 0.558)) ,url('./images/images-projects/math-app.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pr4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.834), rgba(0, 0, 0, 0.558)) ,url('./images/images-projects/virtual-store\ -\ confi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pr5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.834), rgba(0, 0, 0, 0.558)) ,url('./images/images-projects/chat.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pr6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.834), rgba(0, 0, 0, 0.558)) ,url('./images/images-projects/04_G_Ramirez03.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

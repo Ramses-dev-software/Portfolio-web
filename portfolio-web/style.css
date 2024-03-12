@@ -1,0 +1,473 @@
+/*body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.795);
+    display: inline;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header h1 {
+    margin-top: 0;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*background-image: linear-gradient(#200E3A, #070F2B, #07061f, #0F4C75);*/
+    background-color: #051d2d;
+}
+
+/*Encabezado*/
+
+.header {
+    background-color:  rgb(6, 18, 22);
+    display: flex;
+    position: fixed;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* #222d3f*/
+    /*background-image: linear-gradient(#0b244794, #19366de6, #0f1d56bc)*/;
+    align-items: center;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+
+.header-img {
+    margin: 20px;
+    margin-left: 20px;
+    width: 8vh;
+    height: 8vh;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header-a {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+    margin: 20px;
+    color: #E8FFFF;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover {
+    background-color: #3887BE;
+}
+
+/*---------------------Presentacion----------------*/
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #0d181e, #042236af) ,url("https://blogs.unitec.mx/hubfs/287524/Imported_Blog_Media/para-que-sirve-la-programacion-3-compressor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10vw;
+    padding-inline: 10vw;
+    padding-bottom: 5vw;
+    margin-bottom: 20vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+}
+
+.div {
+    display: flex;
+    word-wrap: break-word;
+}
+
+.img {
+    width: 30vw;
+    height: 30vw;
+    aspect-ratio: 150/150;
+    border-radius: 50%;
+}
+
+.fullstack {
+    color: #420516;
+    margin-inline-start: auto;
+    word-wrap: break-word;
+    font-size: 3vw;
+    text-align: end;
+}
+
+.mark {
+    font-size: 6vw;
+}
+
+
+.h2 {
+    font-size: 8vw;
+    word-wrap: break-word;
+    text-align:end;
+}
+.p {
+    margin: 10px;
+    font-size: 17px;
+    margin-inline: 5px;
+}
+
+/*display: flex, inline, inline-block*/
+
+/*-----------------------------Acerca de mi--------------------------*/
+
+/*Tabla de tecnologias mas usadas*/
+.section {
+    display: flex;
+}
+
+.table {
+    table-layout: fixed;
+    background-size: cover;
+    word-wrap: break-word;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+}
+
+caption {
+    margin: 10px;
+    color: #E8FFFF;
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+th {
+    padding-inline: 1vw;
+    text-align: start;
+}
+
+tr td {
+    display: inline-table;
+    color: whitesmoke;
+    margin-inline: 2vw;
+    font-size: 16px;
+}
+
+#dart {
+    display: flex;
+    font-size: 4.2vw;
+    margin-inline: 1vw;
+    color:#3887BE;
+}
+#Flutter {
+    display: flex;
+    margin-inline: 1vw;
+    font-size: 4.2vw;
+    color: #479ecae0;
+}
+#Kotlin {
+    display: flex;
+    margin-inline: 1vw;
+    font-size: 4.2vw;
+    color: rgb(247, 121, 4);
+}
+#JavaScript {
+    display: flex;
+    margin-inline: 1vw;
+    font-size: 4.2vw;
+    color: yellow;
+}
+
+/*Seccion sobre mi*/
+
+.section-aboutme {
+    width: 300vw;
+    padding: 2vw;
+}
+
+.section {
+    padding: 30px;    
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    background-image: linear-gradient(rgba(3, 6, 10, 0.849), rgba(0, 0, 0, 0.377)), url("./images/image-blue.png");
+}
+
+
+.h3 {
+    padding-top: 1vw;
+    margin-inline-start: 3vw;
+    font-size: 5vw;
+    color: #F5F5F5;
+}
+
+.p-aboutme {
+    color: #F1F6F9;
+    font-size: 18px;
+    margin-inline: 3vw;
+}
+
+.h4-aboutme {
+    font-size: 20px;
+    margin-top: 2vw;
+    margin-inline: 3vw;
+    color: #E8FFFF;
+}
+
+.li {
+    margin-top: 2px;
+    margin-inline-start: 5vw;
+    word-break: break-all;
+    font-size: 20px;
+    color: #F1F6F9;
+}
+
+.div-picture {
+    margin: 2vw;
+    margin-left: 5vw;
+}
+
+.div-section {
+    display: flex;
+}
+
+.img-section {
+    margin-inline-end: 1vw;
+    margin-bottom: 4%;
+    height: 50px;
+    width: 50px;
+    aspect-ratio: 100/100;
+}
+
+.img-section:hover {
+    transform: scale(1.3);
+}
+
+/*Habilidades*/
+.hb {
+    margin: 10vw;
+}
+
+.div-hb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition-delay: linear;
+}
+
+.h3-div-hb {
+    text-align: center;
+    margin-bottom: 1vw;
+    font-size: 5vw;
+    color: #3887BE;
+}
+
+.img-div-hb {
+    margin-top: 30px;
+    margin-inline: 10px;
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1/1;
+    transition: margin, height, width;
+    transition-duration: 1s;
+    transition-delay: linear;
+}
+
+.img-div-hb:hover, .div-hb::selection {
+    margin: 10px;
+    aspect-ratio: 1/1;
+    width: 75px;
+    height: 75px;
+    transition: margin, height, width;
+    transition-duration: 1s;
+}
+
+#section-hb {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 20vw;
+    border: 3px solid #f9f9f9;
+    padding: 20px;
+}
+
+.global-info-section {
+    margin-bottom: 20vw;
+}
+
+/*Informacion de tecnologias*/
+.section-tech {
+    margin: 15vw;
+}
+
+.img-section-tech {
+    margin: 2vw;
+    width: 10vw;
+    height: 5vw;
+    aspect-ratio: 1/1;
+}
+
+.img-section-exp {
+    margin: auto;
+    margin-inline: 5vw;
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1/1;
+}
+
+.h4-section-exp  {
+    font-size: 30px;
+    color: white;
+    margin: 15px;
+    text-align: center;
+}
+
+.p-section-exp {
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    margin-inline: 7vw;
+}
+
+#border1 {
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+#border2 {
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.section-exp {
+    padding: 20px;
+    background-color: #081e33;
+    display: flex;
+    justify-content: center;
+}
+
+.section-exp2 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: #12284e;
+}
+
+/*Proyectos*/
+.projects-container {
+    padding: 30px;
+    border: 2px solid #0a365f;
+    background-color: #081e33;
+}
+
+.h4-pro {
+    display: flex;
+    margin: 35px;
+    justify-content: center;
+    font-size: 5vw;
+    color: #F5F5F5;
+}
+
+.projects-maked {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    margin: 10px;
+    margin-inline: 2vw;
+    border: 2px solid white;
+    width: 30vw;
+    height: 40vw;
+}
+
+.img-project {
+    aspect-ratio: 1/1;
+    margin: 10px;
+    width: 4.1vw;
+    height: 4.1vw;
+}
+
+.h5-project {
+    margin: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+/*Muchas gracias*/
+.h4-pre-final {
+    margin: 40px;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+/*--------------------------------Inspiracion-----------------------------------*/
+.marquee-img {
+    margin: 30px;
+    width: 25vw;
+    height: 20vw;
+    border: 2px solid white;
+}
+
+.center {
+    color: white;
+    margin-inline: 1px;
+    margin: 10px;
+}
+
+/*--------------------------------Pie de pagina---------------------------*/
+.footer {
+    padding: 59px;
+    background-color: rgb(6, 18, 22);
+    display: flex;
+    flex-direction: column;
+}
+
+.sup {
+    margin-top: 20px;
+    color: white;
+}
+
+.em {
+    color: white;
+}
+
+.ul-footer {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.li-footer {
+    margin: 10px;
+    color: white;
+}
