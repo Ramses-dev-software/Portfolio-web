@@ -1,1 +1,2 @@
-# false-portfolio-web
+# So, this portfolio is something im not gonna like on the future, but for my first project with HTML & CSS is hopeful.
+# ramses garcia sanchez Software Developer
